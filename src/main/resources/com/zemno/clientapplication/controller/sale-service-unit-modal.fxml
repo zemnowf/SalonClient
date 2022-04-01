@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="210.0" prefWidth="355.0" style="-fx-background-image: url('./img/login_background.png');" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.zemno.clientapplication.controller.SaleServiceUnitController">
+   <children>
+      <Button layoutX="29.0" layoutY="66.0" mnemonicParsing="false" onAction="#signDeal" prefHeight="70.0" prefWidth="300.0" style="-fx-background-color: white; -fx-border-color: black;" text="Подтверждение" textFill="BLACK">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font></Button>
+      <Text fill="#000000" layoutX="29.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Оформить продажу">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
